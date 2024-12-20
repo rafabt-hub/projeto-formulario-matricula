@@ -48,3 +48,45 @@ aside {
     }
   }
 }
+
+@media (max-width: 768px) {
+   #app {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .desktop-text {
+    display: none;
+  }
+  
+  #aside {
+    padding: 1rem;
+  }
+
+  main {
+    padding: 1.5rem;
+  }
+
+  .address .flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .actions-wrapper {
+    flex-direction: column;
+    justify-self: center;
+    width: 100%;
+  }
+
+  .btn-secondary {
+    margin-left: 0 !important;
+    text-align: center;
+ }
+
+ .btn-primary {
+  text-align: center;
+ }
+}
+
+
